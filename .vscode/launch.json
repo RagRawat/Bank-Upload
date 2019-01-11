@@ -8,9 +8,9 @@
             "server": "http://localhost",
             "serverInstance": "BC130",
             "authentication": "Windows",
-            "startupObjectId": 50100,
-            "startupObjectType": "Page",
-            "breakOnError": true
+            //"startupObjectId": 50100,
+            //"startupObjectType": "Page",
+            //"breakOnError": true
         }
     ]
 }

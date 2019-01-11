@@ -263,8 +263,8 @@ page 50100 "Bank List"
             {
                 Caption = 'Bank Journals';
                 ApplicationArea = All;
-                Promoted = true;
-                PromotedIsBig = true;
+                //Promoted = true;
+                //PromotedIsBig = true;
                 Image = Bank;
                 RunObject = page "Payment Journal";
             }
