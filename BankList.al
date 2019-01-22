@@ -20,15 +20,18 @@ page 50100 "Bank List"
                 field(StartDate; StartDate)
                 {
                     Caption = 'Start Date';
+                    ApplicationArea = All;
                 }
                 field(EndDate; EndDate)
                 {
                     Caption = 'End Date';
+                    ApplicationArea = All;
                 }
                 field(Vend; Vend)
                 {
                     Caption = 'Vendor Name';
                     TableRelation = Vendor;
+                    ApplicationArea = All;
                 }
             }
             group(bankInfo)
@@ -243,6 +246,7 @@ page 50100 "Bank List"
 
 
                         until FrmBnk.Next = 0;
+                        Message('Data transfered');
                     End ELSE
                         message('Please select "Send to" in the sheet')
                 END;
